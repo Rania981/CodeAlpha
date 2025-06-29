@@ -1,0 +1,69 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: url(/./images/abstract-modern-blue-flowing-lines.jpg) no-repeat center center fixed;
+background-size: cover;
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.container {
+  text-align: center;
+  margin-top: 10px;
+
+  
+}
+h1 {
+  color: #bbde0d;
+  font-size: 100px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 20px;
+  text-decoration: solid;
+  text-size-adjust: 200px;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 2s ease-out forwards;
+}
+input[type="date"] {
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+button {
+  padding: 10px 20px;
+  font-size: 30px;
+  font-weight: bold;
+  background: #bbde0d;
+  color: rgb(8, 198, 245);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+button:hover {
+  background: #077bb4;
+}
+#result {
+  margin-top: 20px;
+  font-size: 50px;
+  color: #bbde0d;
+}
+
+
+/* Keyframes for the animation */
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.text{
+  color: #bbde0d;
+  margin-bottom: 20px;
+  font-size: larger;
+  font-family: 'Times New Roman', Times, serif;
+}
+
